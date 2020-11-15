@@ -1,0 +1,76 @@
+* {box-sizing: border-box;}
+.main {
+		width: 1000px;
+		height: 700px;
+		background-image: url(Desert.jpg);
+		background-size: cover;
+		overflow: hidden;
+		margin: auto;
+	}
+	.header {
+		height: 200px;
+		
+	}
+	.top {
+		color: red;
+		background-color: #ead1d1;
+		font-size: 30px;
+		text-align: center;
+
+	}
+	.title {
+		background-color: #3d84c1;
+		overflow: hidden;
+		height: 50px;
+	}
+	.titlel  {
+		width: 50%;
+		float: left;
+		font-size: 20px;
+		padding-top: 10px;
+	}
+	.titler{
+		width: 50%;
+		float: right;
+		text-align: right;
+		font-size: 20px;
+	}
+	.menu {height: 40px;
+		overflow: hidden;}
+
+		.glav, .katzap, .katstek, .zapros {
+			width: 25%;
+			float: left;
+			height: 40px;
+			border: 2px solid black;
+			padding: 1px;
+			text-align: center;
+		}
+		.glav:hover {background-color: red;}
+		.katzap:hover {background-color: red;}
+		.katstek:hover {background-color: red;}
+		.zapros:hover {background-color: red;}
+		
+
+		.akci1, .akci2, .akci3 {width: 320px; 
+			height: 500px; 
+			float: left; 
+			background-size: 320px 500px;
+			text-align: center;
+			font-size: 50px;
+			color: red;
+
+		}
+		.akci1 {
+			background-image: url(https://i.ytimg.com/vi/E9DV3-xoyKA/maxresdefault.jpg);
+
+		}
+		.akci2 {
+			background-image: url(https://i.ytimg.com/vi/UIMYWJq1UUM/maxresdefault.jpg);
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.akci3 {
+			background-image: url(https://bm.img.com.ua/berlin/storage/orig/b/67/f393084749b1a869cd71cbac8b51d67b.jpg);
+		}
+
